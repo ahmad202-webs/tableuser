@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body>
+
+    <input type="text" placeholder="Search..." class="inpsearch">
+    <button class="btnadd">Add User +</button>
+    
+
+    <dialog class="dialogadd">
+            <input type="text" class="in9" placeholder="Enter your mesta"><br><br>
+            <input type="text" class="in10" placeholder="Enter your img url"><br><br>
+            <input type="text" class="in11" placeholder="Enter your name"><br><br>
+            <input type="text" class="in12" placeholder="Enter your email"><br><br>
+            <input type="text" class="in13" placeholder="Enter your Number"><br><br>
+            <input type="text" class="in14" placeholder="Enter your Age"><br><br>
+            <input type="text" class="in15" placeholder="Enter your Country"><br><br>
+            <select class="in16">
+                <option value=""></option>
+                <option value="Rejected">Rejected</option>
+                <option value="Verified">Verified</option>
+            </select><br><br>
+            <button class="adduser">Add</button>
+            <button class="cancle">Cancle</button> 
+    </dialog>
+    
+    <dialog class="dialogdelete">
+        <h1>Are you sure for delete it</h1>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </dialog>
+
+    <dialog class="dialogedit">
+            <input type="text" class="in1"><br><br>
+            <input type="text" class="in2"><br><br>
+            <input type="text" class="in3"><br><br>
+            <input type="text" class="in4"><br><br>
+            <input type="text" class="in5"><br><br>
+            <input type="text" class="in6"><br><br>
+            <input type="text" class="in7"><br><br>
+            <select class="in8">
+                <option value=""></option>
+                <option value="Rejected">Rejected</option>
+                <option value="Verified">Verified</option>
+            </select><br><br>
+            <button class="update">Update</button>
+            <button class="btnno">Un Update</button>
+    </dialog>
+
+    <dialog class="dialoginfo">
+        <h3 class="mestainfo"></h3>
+        <img src="" alt="" class="imginfo">
+        <h3 class="nameinfo"></h3>
+        <h3 class="emailinfo"></h3>
+        <h3 class="concatinfo"></h3>
+        <h3 class="ageinfo"></h3>
+        <h3 class="countryinfo"></h3>
+        <h3 class="statusinfo"></h3>
+        <button class="btncloseininfo">Close</button>
+    </dialog>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Customer name</th>
+                <th>Concat</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+    <script src="./main.js"></script>
+</body>
+</html>

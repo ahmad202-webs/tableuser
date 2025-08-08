@@ -1,0 +1,141 @@
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+thead tr {
+    background-color: #f4f6f9;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #6c757d;
+    letter-spacing: 0.5px;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+    height: 50px;
+}
+
+.yes {
+    background-color: red;
+    border: none;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.yes:hover{
+    background-color: darkred;
+}
+
+.no {
+    background-color: rgb(218, 149, 21);
+    border: none;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.no:hover{
+    background-color: rgb(149, 66, 7);
+}
+
+.dialogedit{
+    width: 400px;
+}
+
+input{
+    width: 380px;
+    height: 30px;
+}
+
+select{
+    width: 380px;
+    height: 30px;
+}
+
+.update {
+    background-color: green;
+    border: none;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.update:hover{
+    background-color: darkred;
+}
+
+.btnno {
+    background-color: rgb(255, 32, 32);
+    border: none;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnno:hover{
+    background-color: rgb(149, 66, 7);
+}
+
+.dialoginfo{
+    width: 400px;
+    text-align: center;
+}
+
+.btncloseininfo {
+    background-color: rgb(255, 32, 32);
+    border: none;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btncloseininfo:hover{
+    background-color: rgb(149, 66, 7);
+}
+
+.inpsearch{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 70%;
+    border-radius: 5px;
+}
+
+.btnadd {
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnadd:hover{
+    background-color: rgb(42, 156, 255);
+}
